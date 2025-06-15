@@ -13,12 +13,12 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(2, 5), -3)
         self.assertEqual(self.calc.subtract(8, 8), 0)
         self.assertEqual(self.calc.subtract(7, 0), 7)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(3, 2), 6)
         self.assertEqual(self.calc.multiply(-4, 2), -8)
         self.assertEqual(self.calc.multiply(-4, -2), 8)
         self.assertEqual(self.calc.multiply(0, 2), 0)
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(6, 3), 2)
         self.assertEqual(self.calc.divide(-8, 2), 4)
         self.assertEqual(self.calc.divide(-4, -4), 1)
